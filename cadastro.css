@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navbar {
+    width: 300px;
+    color: #e3b062;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #32B9CD;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.banner {
+    background-image: url(/assets/imagens/bg-jelly-fish-para_outras_pags.png);
+    height: 600px;
+    color: white;    
+}
+
+.cadastro {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro .container {
+    border-radius: 6px;
+    height: 480px;
+    width: 440px;
+    background-color: #e5e5e5;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.cadastro .container h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #e07494;
+    border-radius: 4px;
+}
+
+.cadastro .container span {
+    width: 235px;
+    display: flex;
+    align-items: start;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #e07494;
+}
+
+.cadastro .container input {
+    height: 35px;
+    width: 230px;
+    text-align: center;
+    font-size: 15px;
+    color: color;
+    border: 3px solid #37bbce;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.cadastro .container button {
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    border-radius: 4px;
+    border: 0px;
+    width: 130px;
+    font-size: 18px;
+    height: 45px;
+}
